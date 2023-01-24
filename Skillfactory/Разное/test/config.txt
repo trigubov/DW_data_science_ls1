@@ -1,0 +1,4 @@
+[VSphere]
+host=10.100.26.50
+user=trigubov@VSPHERE.LOCAL
+pwd=Ain433455$
