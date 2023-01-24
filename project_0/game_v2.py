@@ -23,7 +23,8 @@ def random_predict(number: int = 1) -> int:
             break  # выход из цикла если угадали
     return count
 
-def algo_predict(number: int =1,min: int =1,max: int =100) -> int:
+
+def algo_predict(number: int =1,min: int =1,max: int = 100 ) -> int:
     """Угадываем число по алгоритму: каждая следущая попытка выбирает среднее число между предидущей
     неудачной попыткой, и максимальным/минимальным возможным вариантом
 
@@ -41,13 +42,12 @@ def algo_predict(number: int =1,min: int =1,max: int =100) -> int:
         predict_number = (min + max) // 2
         if number == predict_number:
             break  # выход из цикла если угадали
-        elif predict_number > number: # задуманное число - меньше предсказанного
+        elif predict_number > number:  # задуманное число - меньше предсказанного
             max = predict_number - 1 # изменили верхнюю границу поиска
         elif predict_number < number: # задуманное число - больше предсказанного
             min = predict_number + 1 # изменили нижнюю границу поиска
             
     return count
-
 def score_game(random_predict) -> int:
     """За какое количство попыток в среднем за 1000 подходов угадывает наш алгоритм
 
@@ -58,7 +58,7 @@ def score_game(random_predict) -> int:
         int: среднее количество попыток
     """
     count_ls = []
-    #np.random.seed(1)  # фиксируем сид для воспроизводимости
+    # np.random.seed(1)  # фиксируем сид для воспроизводимости
     random_array = np.random.randint(1, 101, size=(1000))  # загадали список чисел
 
     for number in random_array:
