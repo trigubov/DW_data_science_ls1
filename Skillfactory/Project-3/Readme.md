@@ -9,10 +9,11 @@
 [6. Выводы](README.md#Выводы) 
 
 ### Описание проекта    
-Это соревнование на платформе Kaggle. 
-Само соревнование: https://www.kaggle.com/competitions/sf-booking/overview
-Ссылка на мой ноутбук: https://www.kaggle.com/code/darkwinq/minimum-data-solution-by-v-trigubov
-Ноутбук на Github: (minimum-data-solution-by-v-trigubov.ipynb)
+Это соревнование на платформе Kaggle. <br>
+Само соревнование: https://www.kaggle.com/competitions/sf-booking/overview<br>
+Ссылка на мой ноутбук: https://www.kaggle.com/code/darkwinq/minimum-data-solution-by-v-trigubov<br>
+Ноутбук на Github: [minimum-data-solution-by-v-trigubov.ipynb](minimum-data-solution-by-v-trigubov.ipynb)<br>
+
 
 :arrow_up:[к оглавлению](README.md#Оглавление)
 
