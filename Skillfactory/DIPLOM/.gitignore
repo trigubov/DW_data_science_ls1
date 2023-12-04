@@ -1,6 +1,4 @@
-*.pkl
-*.csv
-C:\IDE\Skillfactory\DIPLOM\pkl\*.pkl
-C:\IDE\Skillfactory\DIPLOM\pkl\*.csv
-DIPLOM\pkl\*.pkl
-DIPLOM\pkl\*.csv
+arima_model_fit.pkl
+X.pkl
+results_df.csv
+results_df_2minutes.csv
